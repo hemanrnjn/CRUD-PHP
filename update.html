@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link   href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+                
+                <div class="span10 offset1">
+                    <div class="row">
+                        <h3>Update a Customer</h3>
+                    </div>
+
+                    <p>
+                    <a href="index.php" class="btn btn-success">Home</a>
+                    </p><br>
+                </div>
+
+               	<form class="form-horizontal" action="update.php" method="post">
+                      <div class="control-group <?php echo !empty($nameError)?'error':'';?>">
+                        <label class="control-label">Enter the Id</label>
+                        <div class="controls">
+                            <input name="id" type="text"  placeholder="id" >
+                        </div>
+                     </div><br>
+                     <button type="submit" class="btn btn-success">Proceed to Update</button>
+                </form>
+
+    </div>
+</body>
+</html>

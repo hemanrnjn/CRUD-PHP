@@ -1,0 +1,12 @@
+.hide{
+	display: none;
+}
+
+h3 header{
+	background-color: #1c416a;
+	padding: 30px 40px;
+	color: white;
+	text-align: center;
+	font-family: 'Sansita', sans-serif;
+	border-radius:10px;
+}
